@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --green: #30CA54;
+  --red: #FF0000;
+  --red1: #F24949;
+  --white: #fff;
+  --lightgray: #5E5E5E;
+  --lightestgray: #9E9D9D;
+  --darkgrey: #454141;
+  --black: #1C1C1C;
+  --lightgreen: #EDFFF1;
+  --yellow: #ffb800;
+  --footerblack: #1B1B1B;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+html {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+
+.row.sidebar {
+  height: 100%
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.first h1{
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  margin: 0;
+}
+
+.first h2{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 41.6px;
+  margin: 0;
+}
+
+.first h3{
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.first h6{
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+
+.first p.publicsans{
+  font-family: 'Public Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin: 0;
+}
+
+.first p.Inter{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+
+.PropertyBrain h1{
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+}
+
+.PropertyBrain h2{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  margin: 0;
+}
+
+.PropertyBrain h3{
+  font-family: 'Public Sans';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 0;
+}
+
+.PropertyBrain h4{
+  font-family: 'DM Sans';
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13px;
+  margin: 0;
+}
+
+.PropertyBrain h5{
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  margin: 0;
+}
+
+.PropertyBrain h6{
+  font-family: 'Inter';
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 8px;
+  margin: 0;
+}
+
+.PropertyBrain p.mont{
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 0;
+}
+
+.PropertyBrain p.publicSan{
+  font-family: 'Public Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0;
+}
+
+.HomeCardMAin h1{
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.HomeCardMAin p{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #707070;
+}
+
+.HomeCardMAin h2{
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+  color: #1B1F24;
+}
+
+.HomeCardMAin h3{
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #515459;
+}
+
+.cardPaginationtext h4 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  padding-left: 38px;
+  color: #2A71FF;
+}
+
+.navbarMiddle h1{
+  font-family: 'Public Sans';
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+  }
+
+  .navbarMiddleArrowText {
+    text-align: center;
+}

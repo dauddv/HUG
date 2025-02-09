@@ -1,0 +1,1175 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 17px 5px 85px;
+    align-items: center;
+    background: var(--green);
+    z-index: 11;
+    position: fixed;
+    width: 100%;
+}
+
+.NavbarAlert .alert {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    background: var(--red);
+    border-radius: 25px;
+    color: var(--white);
+    padding: 5px 7px 5px 7px;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+}
+
+.NavbarAlert .navbarExclamination {
+    color: var(--red);
+    width: 20px;
+    height: 20px;
+    border-radius: 51px;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavbarAlert .alert button {
+    background: transparent;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.NavbarSignUp {
+    display: flex;
+    align-items: center;
+}
+
+.NavbarSignUpLogo {
+    background: var(--white);
+    border-radius: 37px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    color: var(--green);
+    margin-left: 3px;
+}
+
+.NavbarSignUpImg {
+    width: 54px;
+    height: 49px;
+}
+
+.NavbarSignUpImg img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
+.newChat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--green);
+    padding: 8px 0;
+    margin: 20px 20px 13px 0px;
+    border-radius: 12px;
+    color: var(--white);
+}
+
+.sidebarlist {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-left: 6px;
+    color: var(--lightgray);
+    cursor: pointer;
+}
+
+.sidebarlistLogo {
+    line-height: 0;
+}
+
+.sidebarlistLogo svg {
+    height: 20px !important;
+    width: 100%;
+}
+
+.sidebarlisttext h2 {
+    color: var(--lightestgray);
+    transition: color .5s ease-in-out;
+}
+
+.sidebarlist .sidebarlisttext:hover h2{
+    color: var(--darkgrey);
+}
+
+.sidebarHistory {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.sidebarlist.History {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.historyInner {
+    padding-left: 30px;
+    color: var(--black);
+}
+
+.historyInner h6 {
+    padding-bottom: 20px;
+  }
+  
+  .sidebarInnerBottomlogoandtext {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-bottom: 25px;
+    color: var(--black);
+    padding-left: 12px;
+  }
+  
+  .sidebarInnerBottomlogo {
+    line-height: 0;
+  }
+  
+  .sidebarInnerBottomlogo svg {
+    height: 20px;
+    width: 100%;
+  }
+  
+  .copyRight p {
+    padding: 12px 0 10px 12px;
+    font-family: 'Inter';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--black);
+  }
+  
+  .sidebarInnerBottom {
+    padding-left: 20px;
+    padding-top: 32px;
+  }
+  
+  .sidebarInnerTop {
+    padding-left: 20px;
+    overflow-y: scroll;
+  }
+
+  .sideBarInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    height: 100%;
+    position: fixed;
+    width: 20%;
+    background: #fff;
+    top: 0;
+    padding-top: 70px;
+    z-index: 10;
+    left: -30%;
+    transition: left .5s ease-in-out;
+}
+
+.sideBarActiveClass{
+    left: 0%;
+}
+
+.sidebarInnerTop::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #1C1C1C1A;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.sidebarInnerTop::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.sidebarInnerTop::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #000;
+}
+
+.inenerPageheading {
+    text-align: center;
+    padding: 180px 0 0;
+}
+
+.innerPageSearch {
+    text-align: center;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+}
+
+.innerPageSearchInput input {
+    width: 100%;
+    padding: 22px 0 35px 14px;
+    border: 0;
+    background: transparent;
+}
+
+.innerPageSearchLogo {
+    display: flex;
+    gap: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.InnerPageInner {
+    width: 642px;
+    margin: 0 auto;
+}
+
+.utilitiesClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--lightgreen);
+    padding: 6px 25px 50px 10px;
+    gap: 5px;
+    border-radius: 10px;
+    border: 1px solid #DFDFDF;
+    margin-top: 27px;
+}
+
+.utilitiesClassLogo {
+    line-height: 0;
+}
+
+.innerPageSearchInput input:focus-visible {
+    outline: 0;
+}
+
+
+
+.myAccordianClass {
+    z-index: 0;
+    position: relative;
+}
+
+.todoPage p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    color: #403E3E;
+    line-height: 30px;
+}
+
+.todoPage h6{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 20px;
+}
+
+.todoPage h5{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    line-height: 50px;
+    margin: 0;
+}
+
+.todoPage h2{
+    font-family: 'Montserrat';
+    font-size: 33px;
+    font-weight: 700;
+    color: #1F1F1F;
+    line-height: 50px;
+}
+
+.todoPage h3{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    color: #040404;
+    line-height: 56px;
+
+}
+
+.accordion-header .accordion-button {
+    background: #D9D9D9BF;
+    padding: 4px 24PX 11px 23px;
+}
+
+.accordion-button::after {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #000;
+}
+
+.accordion-body {
+    padding: 63px 25% 50px;
+}
+
+.UrgRecMenMAin {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.UrgRecMen {
+    position: relative;
+    padding: 0 0px 0 35px;
+}
+
+.UrgRecMen::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: #000;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.UrgRecMen.Urg::before {
+    background: var(--red1);
+}
+
+.UrgRecMen.Rec::before {
+    background: #F1B312;
+}
+
+.UrgRecMen.Men::before {
+    background: #78E993;
+}
+
+.UrgRecMenMAin {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #D3D1D1;
+    margin: 0 5% !important;
+}
+
+.urgentMain i.fa-solid.fa-exclamation {
+    width: 72px;
+    height: 72px;
+    border: 7px solid var(--red1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px auto 11px;
+    font-weight: 800;
+    color: var(--red1);
+    font-size: 32px;
+    border-radius: 80px;
+}
+
+.urgentMain {
+    text-align: center;
+}
+
+.fenceLofoText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fenceLofoText img {
+    height: 100% !important;
+    object-fit: scale-down;
+    padding-right: 12px;
+}
+
+.fenceLofoText h2 span {
+    color: var(--red1);
+}
+
+.todosLodoAndText {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.todos1 i {
+    color: #1F1F1F;
+    padding-right: 8px;
+}
+
+.todos1 h6 {
+    color: var(--green);
+}
+
+.todosbottom {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.todoMain h6 {
+    font-weight: 600;
+}
+
+.todosbottom h6 {
+    padding-right: 6px;
+}
+
+.todos2 h6,.todos2 i {
+    color: #00B0E1;
+}
+
+.todos3 h6, .todos3 i {
+    color: var(--green);
+}
+
+.todos4 h6, .todos4 i {
+    color: var(--red1);
+}
+
+.fenceMAin h6 {
+    padding: 15px 0 17px;
+}
+
+.todosTop {
+    padding: 17px 0 11px;
+}
+
+.todosbottom .todosLodoAndText {
+    border-right: 1px solid;
+    padding-right: 10px;
+}
+
+.todosbottom .todosLodoAndText:last-child {
+    border: 0;
+}
+
+.todoCard {
+    padding: 14px 12px 5px 12px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.todoCardred {
+    background: #FFECEC;
+    border: 1px solid #EA5455;
+}
+
+
+.todoCardyellow {
+    background: #FFF3D2;
+    border: 1px solid var(--yellow);
+}
+
+.todoCardyellow .exteriorBtn h5 {
+    background: var(--yellow);
+}
+
+.todoCardMainheaChec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoCardMainheaChec p {
+    font-weight: 600;
+}
+
+.todoCardMainheaChec input {
+    width: 26px;
+    height: 26px;
+}
+
+.exteriorBtn h5 {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    background: var(--red1);
+    line-height: 25px;
+    padding: 0 13px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.exteriorBtn {
+    display: flex;
+    padding: 5px 0 10px;
+}
+
+.todoCardImg img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.todoCardPara h6 {
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: left;
+    color: #1F1F1F;
+    padding: 12px 0 50px;
+}
+
+.todoCardBtn button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: var(--green);
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.todoCardBtn button h6 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.todoCardMain {
+    padding: 30px 12px 0;
+}
+
+.todoPage {
+    padding: 135px 0 20px;
+}
+
+.informationred{
+    background: #FFECEC;
+}
+
+.informationyellow{
+    background: #FFF3D2;
+    border: 1px solid var(--yellow);
+}
+
+.information {
+    padding: 37px 95px 55px 38px;
+    border-radius: 5px;
+    margin: 15px 20px 95px;
+}
+.informationLine {
+    width: 100%;
+    border-bottom: 2px solid #D3D1D1;
+    padding: 0px 95px 0px 38px;
+}
+
+
+.information h2 {
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.17px;
+    color: #4B465C;
+}
+
+.paraInformation p {
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 20px;
+    color: #4B465C;
+}
+
+
+.urgentLike i.fa-regular.fa-thumbs-up {
+    font-size: 64px;
+    font-weight: 100;
+    padding: 41px 0 17px;
+}
+
+.urgentLike h2 {
+    color: var(--yellow);
+}
+
+.todoNavabar ul {
+    display: flex;
+    list-style: none;
+}
+
+.todoNavabar ul li {
+    padding: 12px 16px;
+    transition: all .5s ease-in-out;
+}
+
+.todoNavabar ul li.active {
+    color: #624BFF;
+    border-top: 1px solid #624BFF;
+}
+
+.todoNavabar ul li:hover {
+    color: #624BFF;
+    border-top: 1px solid #624BFF;
+}
+
+.urgentMain svg {
+    color: var(--red1);
+    font-size: 39px;
+    margin: 66px 0 9px;
+}
+
+.urgentMain svg {
+    color: var(--red1);
+    font-size: 39px;
+    margin: 66px 0 9px;
+}
+
+.fenceMAin .todos1 svg {
+    color: #000;
+    font-size: 22px;
+    margin: 0;
+}
+
+.fenceMAin .todos1 h6 {
+    padding: 0px 0px 0 17px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    color: var(--red1);
+}
+
+h6.Summarryh6 {
+    padding: 30px 22% 50px;
+    text-align: left;
+}
+
+.todosLodoAndText svg {
+    margin: 0;
+    font-size: 14px;
+}
+
+.todosLodoAndText h6 {
+    font-size: 12px;
+}
+
+.todos3 svg {
+    color: var(--green);
+}
+
+
+.todocardPriceline h5 {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #686868;
+    text-align: justify;
+    padding-top: 5;
+}
+
+.urgentLike svg {color: black;}
+
+.AiFillLike svg {
+    color: var(--yellow);
+}
+
+.urgentLike .todos1 h6 {
+    color: var(--yellow);
+}
+
+.todoCardgreen {
+    background: #FBFFF6;
+    border: 1px solid var(--green);
+}
+
+.todoCardgreen .exteriorBtn h5 {
+    background: var(--green);
+}
+
+
+.informationgreen{
+    background: #FBFFF6;
+    border: 1px solid var(--green);
+}
+
+.maintenanceHome h2 {
+    color: var(--green);
+}
+
+.maintenanceHome .todos1 h6 {
+    color: var(--green);
+}
+
+.IoMdHome svg {
+    color: var(--green);
+}
+
+.PropertyBrainHeader {
+    position: relative;
+    margin-bottom: 85px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px;
+}
+  
+  .PBHeaderrow1Inner {
+    background: #FFFFFF;
+    text-align: center;
+    max-width: 595px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 13px 45px 7px;
+  }
+  
+  .PropertyBrainHeaderrow1 {
+    padding: 30px 0 70px;
+    background: var(--black);
+  }
+  
+  .PBHeaderrow1Progressbar {
+    background: var(--green);
+    border-radius: 20px;
+  }
+  
+  .PBHeaderrow1Progressbar h4 {
+    color: var(--white);
+    padding: 2px 0;
+    margin-top: 17px;
+  }
+  
+  .PropertyBrainHeader {padding: 0 0 115px;}
+  
+  .PropertyBrainHeaderrow2 {
+    position: absolute;
+    padding: 0 25px 15px 38px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    bottom: 0;
+  }
+  
+  .PBHeaderrow2Img img {
+    width: 155px;
+    height: 155px;
+    border-radius: 88%;
+    border: 5px solid #E9ECEF66;
+  }
+  
+  .PBHeaderrow2ImgAndText {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .PBHeaderrow2Text p, .PBHeaderrow2Text h3 {
+    color: #4B465C;
+  }
+  
+  .PBHeaderrow2Bedroominfo {
+    display: flex;
+    gap: 45px;
+    padding-top: 25px;
+  }
+
+.PBHeaderrow2BRnfologoAndnum {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.PBHeaderrow2BRnfologo {
+    line-height: 0;
+}
+
+.PBHeaderrow2BRnfologo svg {
+    font-size: 22px;
+    fill: var(--green);
+    color: var(--green);
+}
+
+.PBHeaderrow2BRnfonum h5 span {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.PBHeaderrow2Text {
+    padding-top: 30px;
+}
+
+.PropertyBrain {
+    padding: 0 50px 0 60px;
+}
+
+.PropertyBrainSectionInner {
+    text-align: center;
+    border: 0.95px solid #D2D2D2;
+    margin: 0 20px;
+    min-height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: border-color .5s ease-in-out;
+}
+
+.PropertyBrainSection .row .col-12 {
+    padding-bottom: 55px;
+}
+
+.PropertyBrainSectionInnerheading h1 {
+    padding-bottom: 10px;
+    color: #939090;
+    transition: color .5s ease-in-out;
+}
+
+.PropertyBrainSectionInnerpara h6 {
+    color: #A0A0A0;
+    transition: color .5s ease-in-out;
+}
+
+.PropertyBrainSectionInner:hover {
+    border-color: var(--green);
+}
+
+.PropertyBrainSectionInner:hover .PropertyBrainSectionInnerheading h1 {
+    color: var(--green);
+}
+
+.PropertyBrainSectionInner:hover .PropertyBrainSectionInnerpara h6 {
+    color: var(--green);
+}
+
+
+.homeBackground {
+    background-image: url('mainBg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.HomeMainClass .utilitiesClass {
+    background: var(--green);
+    justify-content: flex-start;
+}
+
+.HomeMainClass .utilitiesClass .utilitiesClasstext p{
+    color: var(--white);
+}
+
+.HomeMainClass .inenerPageheading h1{
+    color: var(--white);
+}
+
+.HomeCardMAin .HVAClogoText {
+    display: flex;
+    gap: 12px;
+}
+
+.HomeCardMAin {
+    max-width: 884px;
+    padding: 23px 0px 25px 30px;
+    border: 1px solid var(--red);
+    border-radius: 16px;
+    background: var(--white);
+    margin: 0 auto;
+    box-shadow: 20px 20px 20px 0px #00000014;
+}
+
+.HVAClogo svg {
+    font-size: 26px;
+    color: var(--red);
+}
+
+.card1TextandImg {
+    display: flex;
+}
+
+.cardMAin {
+    max-width: 235px;
+    padding: 5px 10px 10px 17px;
+    border: 1px solid var(--green);
+    border-radius: 15px;
+    background: #F1F1F1;
+    margin-left: 15px;
+}
+
+.card1Img img {
+    width: 48px;
+    height: auto;
+}
+
+.card1btn a {
+    border-radius: 40px;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 27px;
+    background: #00B0E1;
+    padding: 4px 18px;
+    color: #fff;
+}
+
+.card2Innerlogo svg {
+    fill: #515459;
+    font-size: 14px;
+}
+
+.card2Innerlogotext {
+    display: flex;
+    gap: 8px;
+}
+
+.card2Innerlogo {
+    line-height: 0;
+}
+
+.card1btn {
+    line-height: 0;
+}
+
+.card2Text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card2TextandBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card2Btn {
+    line-height: normal;
+}
+
+.card2Btn a {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 9px;
+    color: #fff;
+    background: var(--green);
+    padding: 6px 14px;
+    border-radius: 5px;
+}
+
+.HomeCardMAin .row {
+    position: relative;
+}
+
+.HomeCardMAin .row::before {
+    content: '';
+    background: #4B465C;
+    position: absolute;
+    height: 90%;
+    width: 1px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.cardPaginationNumber {
+    display: flex;
+    gap: 6px;
+    padding-left: 8%;
+}
+
+.paginatioBtn a {
+    font-family: Public Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2F2B3DE5;
+}
+
+.paginatioBtn {
+    background: #2F2B3D14;
+    border-radius: 5px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPagination {
+    display: flex;
+    padding-top: 20px;
+}
+
+.HVACTextSplit {
+    padding-top: 5%;
+}
+
+.navbarLogo {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.navbarHamburg svg {
+    font-size: 24px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.navbarMiddle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbarMiddleArrowLogo svg {
+    background: var(--white);
+    border-radius: 40px;
+    color: var(--green);
+}
+
+.navbarMiddlelogo {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbarMiddlelogo span {
+    font-family: Public Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.navbarMiddleLine {
+    width: 163px;
+    background: #2F2B3D14;
+    height: 6px;
+    border-radius: 40px;
+}
+
+.navbarMiddlelogoText {
+    display: flex;
+    align-items: center;
+}
+
+.navbarMiddleLineWidth {
+    background: #F4AF03;
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.navbarMiddleArrowText {
+    text-align: center;
+}
+
+.NavbarSignUpNotification {
+    color: var(--white);
+    padding-right: 20px;
+    font-size: 24px;
+    position: relative;
+    line-height: normal;
+}
+
+.navbarMiddleArrowText {
+    text-align: center;
+}
+
+.NavbarSignUpNotification {
+    color: var(--white);
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+.notifictaionNumber {
+    font-family: Public Sans;
+    font-size: 13px;
+    font-weight: 600;
+    text-underline-position: from-font;
+    background: var(--red);
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 17px;
+    right: 12px;
+}
+
+.NavbarAlert {
+    width: 534px;
+    margin: 0 auto;
+}
+
+.hameCardCall {
+    padding-top: 10%;
+}
+
+footer.footer {
+    background: var(--footerblack);
+    display: flex;
+    padding: 44px 43px 20px 118px;
+    margin-top: 72px;
+}
+
+.footerMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.footerMenu ul li a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.footerLogos .footersocialLogo {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footerLogos {
+    display: flex;
+    gap: 24px;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 37px;
+}
+
+.footerText {
+    width: 100%;
+    padding: 15px 0 0 72px;
+}
+
+.footerBottom p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--white);
+    padding-top: 11px;
+}
