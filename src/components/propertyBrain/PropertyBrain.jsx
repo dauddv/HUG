@@ -21,7 +21,7 @@ const PropertyBrain = () => {
                 <div className="PropertyBrainHeaderrow2">
                   <div className="PBHeaderrow2ImgAndText">
                     <div className="PBHeaderrow2Img">
-                    <img src="propertyBrainProfile.jpeg" />
+                    <img src="/propertyBrainProfile.jpeg" />
                     </div>
                     <div className="PBHeaderrow2Text">
                       <p className="publicSan">Property Type</p>
@@ -77,7 +77,7 @@ const PropertyBrain = () => {
               <div className="row">
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection1.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection1.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Property Data</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>You haven't added any song yet</h6></div>
@@ -87,7 +87,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection2.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection2.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Inspection Report</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Population. Employment. Crime</h6></div>
@@ -97,7 +97,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection3.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection3.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>3D Scan</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Population. Employment. Crime</h6></div>
@@ -107,7 +107,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection4.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection4.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Decor</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>There are no credits in your wallet</h6></div>
@@ -117,7 +117,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection5.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection5.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Homeowner Association</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Allow microphone access</h6></div>
@@ -127,7 +127,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection6.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection6.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Tax Assessor Data</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Liink your bank account</h6></div>
@@ -137,7 +137,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection7.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection7.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Neighborhood Data</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Population. Employment. Crime</h6></div>
@@ -147,7 +147,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection8.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection8.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Schools</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Public Schools. Private Schools. Colleges & Universities.</h6></div>
@@ -157,7 +157,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection9.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection9.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Hazard Risk Data</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Natural. Man-Made. Risk Assessment Data.</h6></div>
@@ -167,7 +167,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection10.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection10.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Mortgage Data</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Prices. Transfers. Transactions.</h6></div>
@@ -177,7 +177,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection11.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection11.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Title & Escrow</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>You have no upcoming events</h6></div>
@@ -187,7 +187,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection12.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection12.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Insurance</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>You have no upcoming events</h6></div>
@@ -197,7 +197,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection13.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection13.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Owners</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Natural. Man-Made. Risk Assessment Data.</h6></div>
@@ -207,7 +207,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection14.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection14.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Valuation</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Natural. Man-Made. Risk Assessment Data.</h6></div>
@@ -218,7 +218,7 @@ const PropertyBrain = () => {
                 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection15.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection15.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Market Analytics</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Natural. Man-Made. Risk Assessment Data.</h6></div>
@@ -228,7 +228,7 @@ const PropertyBrain = () => {
 
                 <div className="col-md-3 col-12">
                   <div className="PropertyBrainSectionInner">
-                    <div className="PropertyBrainSectionInnerImg"><img src="PropertyBrainSection16.png" /></div>
+                    <div className="PropertyBrainSectionInnerImg"><img src="/PropertyBrainSection16.png" /></div>
                     <div className="PropertyBrainSectionInnerheadingAndpara">
                       <div className="PropertyBrainSectionInnerheading"><h1>Shopping</h1></div>
                       <div className="PropertyBrainSectionInnerpara"><h6>Natural. Man-Made. Risk Assessment Data.</h6></div>
