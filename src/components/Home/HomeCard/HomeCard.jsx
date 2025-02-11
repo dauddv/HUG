@@ -38,7 +38,7 @@ const HomeCard = () => {
                         <h2>Jimmy Jones Roofing Company and Son</h2>
                         <div className="card1btn"><a href="#">ROOFER</a></div>
                       </div>
-                      <div className="card1Img"><img src="cardImg.png"/></div>
+                      <div className="card1Img"><img src="/cardImg.png"/></div>
                     </div>
                     <div className="card2TextandBtn">
                       <div className="card2Text">
